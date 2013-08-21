@@ -1,0 +1,20 @@
+
+
+.row-fluid [class*="span"]
+{
+    float: right;
+    margin-left: 0;
+    margin-right: 2.12766%;
+}
+
+    .row-fluid [class*="span"]:first-child
+    {
+        margin-right: 0;
+    }
+
+@media (max-width: 767px) {
+    [class*="span"], .uneditable-input[class*="span"], .row-fluid [class*="span"]
+    {    
+        margin-right:0;
+    }
+}
