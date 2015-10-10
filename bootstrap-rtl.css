@@ -1,4 +1,18 @@
-
+.navbar-header{
+    float: right;
+}
+.navbar-nav{
+    float: right;
+}
+.navbar-nav > li{
+        float: right;
+}
+.dropdown-menu{
+    text-align: right;
+    float: right;
+    right: 0px;
+    left: auto;
+}
 
 .row-fluid [class*="span"]
 {
